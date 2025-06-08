@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ton Téléphone = Ta Liberté - Page de Vente</title>
+<style>
+  /* Reset & base */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+  }
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  /* Container */
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  /* Header */
+  header {
+    background-color: #111;
+    padding: 60px 20px 40px;
+    text-align: center;
+  }
+  header h1 {
+    color: #FFD700;
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  header p {
+    color: #ccc;
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  .btn-primary {
+    background-color: #FFD700;
+    color: #000;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+  }
+  .btn-primary:hover {
+    background-color: #e6c200;
+  }
+  /* Sections */
+  section {
+    margin: 50px 0;
+  }
+  h2 {
+    color: #FFD700;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    border-bottom: 2px solid #FFD700;
+    padding-bottom: 8px;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  ul li {
+    background: url('data:image/svg+xml;utf8,<svg fill="gold" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M9 16.17l-3.88-3.88-1.42 1.41L9 19 20.3 7.71l-1.42-1.42z"/></svg>') no-repeat left center;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+  }
+  /* Testimonials */
+  .testimonials {
+    background-color: #111;
+    padding: 30px 20px;
+    border-radius: 10px;
+  }
+  .testimonial {
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  .testimonial-author {
+    margin-top: 5px;
+    font-weight: bold;
+    color: #FFD700;
+  }
+  /* FAQ */
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  .faq-question {
+    font-weight: 700;
+    color: #FFD700;
+    cursor: pointer;
+    position: relative;
+    padding-right: 20px;
+  }
+  .faq-question::after {
+    content: '+';
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+  }
+  .faq-question.active::after {
+    content: '-';
+  }
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    margin-top: 8px;
+    padding-left: 10px;
+    color: #ddd;
+  }
+  .faq-answer.active {
+    max-height: 300px;
+  }
+  /* Footer */
+  footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+    color: #888;
+    font-size: 0.9rem;
+  }
+  footer a {
+    color: #FFD700;
+    margin: 0 10px;
+  }
+  /* Responsive */
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 2.2rem;
+    }
+    h2 {
+      font-size: 1.6rem;
+    }
+    .btn-primary {
+      width: 100%;
+      padding: 15px 0;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Ton Téléphone = Ta Liberté</h1>
+  <p>Découvre comment générer tes premiers revenus avec ton smartphone et les réseaux sociaux.</p>
+  <a href="#" class="btn-primary">Télécharger l'eBook</a>
+</header>
+
+<div class="container">
+
+  <section>
+    <h2>Ce que tu vas apprendre</h2>
+    <ul>
+      <li>Gagner de l'argent sans montrer ton visage</li>
+      <li>Trouver ta niche rentable même sans compétences</li>
+      <li>Méthodes simples avec TikTok, Instagram et WhatsApp</li>
+      <li>Utiliser les outils gratuits qui boostent ton business</li>
+      <li>Éviter les erreurs classiques qui font perdre du temps</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Pourquoi cet eBook est différent ?</h2>
+    <p>Ce guide est conçu pour les débutants, sans jargon compliqué, avec un plan d'action simple à suivre sur 7 jours. Pas besoin d’être influenceur ni d’avoir un budget, tu peux commencer aujourd’hui !</p>
+  </section>
+
+  <section>
+    <h2>Témoignages</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        “Grâce à cet eBook, j’ai commencé à gagner mes premiers euros en une semaine. Simple, clair et motivant !”<br>
+        <span class="testimonial-author">- Sarah L.</span>
+      </div>
+      <div class="testimonial">
+        “Je ne pensais pas pouvoir réussir sans expérience, mais ce guide m’a montré comment faire pas à pas.”<br>
+        <span class="testimonial-author">- Karim D.</span>
+      </div>
+      <div class="testimonial">
+        “Les idées de contenu sont géniales et vraiment faciles à appliquer. Merci !”<br>
+        <span class="testimonial-author">- Léa M.</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>FAQ - Questions fréquentes</h2>
+    <div class="faq-item">
+      <div class="faq-question">Faut-il avoir une grosse audience pour réussir ?</div>
+      <div class="faq-answer">Non, ce guide t'apprend à commencer sans audience ni expérience préalable.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Est-ce que je dois montrer mon visage ?</div>
+      <div class="faq-answer">Absolument pas ! Les méthodes présentées fonctionnent aussi sans montrer ton visage.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Combien de temps pour voir des résultats ?</div>
+      <div class="faq-answer">Les premières étapes peuvent donner des résultats en quelques jours à une semaine selon ton engagement.</div>
+    </div>
+  </section>
+
+  <section style="text-align:center;">
+    <a href="#" class="btn-primary" style="font-size:1.3rem; padding: 20px 50px;">Je télécharge l'eBook maintenant</a>
+  </section>
+
+</div>
+
+<footer>
+  &copy; 2025 TonNom ou Marque. Tous droits réservés.
+  <br />
+  <a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">Contact</a>
+</footer>
+
+<script>
+  // FAQ toggle
+  document.querySelectorAll('.faq-question').forEach(q => {
+    q.addEventListener('click', () => {
+      q.classList.toggle('active');
+      const answer = q.nextElementSibling;
+      if (answer.classList.contains('active')) {
+        answer.classList.remove('active');
+      } else {
+        answer.classList.add('active');
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
